@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+<test thread-count="5" name="Submit Order">
+
+    <classes>
+      <class name="hemaraj.testcases.SubmitOrderTest"/>
+    </classes>
+      </test>
+
+
+</suite> <!-- Suite -->
